@@ -1,0 +1,14 @@
+let grade1=100;
+let grade2=90;
+let grade3=85;
+let grade4=70;
+let student="Mahdi";
+let average;
+let status;
+average= (grade1+grade2+grade3+grade4)/4
+if(average>=60){
+    status = "appreoved";
+}else{
+    status = "reproved";
+}
+console.log("the average of the "  + student + " is " + average + " and the status is " + status);
